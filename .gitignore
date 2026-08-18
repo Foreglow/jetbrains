@@ -4,3 +4,11 @@ Thumbs.db
 *.swo
 *~
 *.log
+
+# Gradle / build noise
+.gradle/
+build/
+!build/distributions/
+!build/libs/
+*.iml
+.idea/

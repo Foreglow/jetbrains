@@ -1,0 +1,32 @@
+<idea-plugin>
+    <id>com.foreglow.theme.jetbrains.unofficial</id>
+    <name>Foreglow Theme Pack</name>
+    <version>1.0.1</version>
+    <vendor url="https://github.com/Foreglow/visual-studio-code">Foreglow (unofficial JetBrains port)</vendor>
+
+    <description><![CDATA[
+      <p><b>Foreglow</b> theme pack containing four twilight-inspired variants —
+      <b>Foreglow</b> (dark), <b>Afterglow</b> (light), <b>Alpenglow</b>
+      (rubescent) and <b>Airglow</b> (auroral).</p>
+      <p>Each variant ships both a full UI theme and a matching editor color
+      scheme, so you can pick the UI theme under
+      <i>Settings | Appearance &amp; Behavior | Appearance</i>, or just use the
+      editor color scheme on its own under
+      <i>Settings | Editor | Color Scheme</i>.</p>
+    ]]></description>
+
+    <idea-version since-build="223.0"/>
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="d0f46d12-007c-4c2c-a427-432ee84544b2" path="/themes/Foreglow.theme.json"/>
+        <themeProvider id="133ab13e-1d33-488a-98e5-0c5af0a0a6a8" path="/themes/Afterglow.theme.json"/>
+        <themeProvider id="aa0b42cc-25fa-430b-bb84-7cac3a3b6bbd" path="/themes/Alpenglow.theme.json"/>
+        <themeProvider id="7aaf9f09-4e7c-4f62-86f9-df7fde64df78" path="/themes/Airglow.theme.json"/>
+
+        <bundledColorScheme path="/themes/Foreglow.xml"/>
+        <bundledColorScheme path="/themes/Afterglow.xml"/>
+        <bundledColorScheme path="/themes/Alpenglow.xml"/>
+        <bundledColorScheme path="/themes/Airglow.xml"/>
+    </extensions>
+</idea-plugin>

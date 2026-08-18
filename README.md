@@ -1,54 +1,58 @@
-# Foreglow Theme for JetBrains IDEs
+# Foreglow Theme Pack — JetBrains
 
-A twilight-inspired dark theme for JetBrains IDEs (IntelliJ IDEA, PyCharm, WebStorm, CLion, etc.).
+Unofficial JetBrains port of [Foreglow/visual-studio-code](https://github.com/Foreglow/visual-studio-code):
+four twilight-inspired variants — **Foreglow** (dark), **Afterglow** (light),
+**Alpenglow** (rubescent), **Airglow** (auroral).
 
-## Installation
+Each variant pairs a UI theme (`*.theme.json`) with a matching editor color
+scheme (`*.xml`) under `src/main/resources/themes/`, wired together by
+`src/main/resources/META-INF/plugin.xml`.
 
-### Using Plugin Repository
+## Build
 
-1. Open Settings → Plugins → Marketplace
-2. Search for **Foreglow Theme**
-3. Click Install and restart
-
-### Manual Installation
-
-1. Download the latest `foreglow.jar` from releases
-2. Open Settings → Plugins → ⚙️ → Install Plugin from Disk
-3. Select the downloaded JAR file
-4. Restart your IDE
-
-### Via CLI
-
-```bash
-# IntelliJ IDEA
-idea installPlugin foreglow-theme
+```
+./gradlew buildPlugin
 ```
 
-## Usage
+Produces the distributable plugin zip under `build/distributions/`.
 
-Open Settings → Editor → Color Scheme → Foreglow
+## Try it locally without building a distribution
 
-## Color Palette
+```
+./gradlew runIde
+```
 
-| Token | Hex | Usage |
-|-------|-----|-------|
-| Background | `#161221` | Main background |
-| Current Line | `#281F3D` | Line highlight |
-| Selection | `#3D2556` | Text selection |
-| Foreground | `#E8E3F2` | Default text |
-| Comment | `#736699` | Comments |
-| Keyword | `#CB81E4` | Keywords |
-| String | `#ED9F82` | Strings |
-| Function | `#EC93BF` | Functions |
-| Number | `#EFBF6C` | Numbers |
-| Type | `#75C6D7` | Classes, types |
-| Variable | `#C7BCE6` | Variables |
-| Accent | `#F471C8` | Cursor, accent |
+Launches a sandboxed IDE instance with the theme pack already installed, for
+quick iteration.
 
-## Screenshot
+## Install the built plugin
 
-Coming soon.
+Settings/Preferences → Plugins → ⚙️ → Install Plugin from Disk… → pick the
+zip from `build/distributions/`, then restart. Then Settings → Appearance &
+Behavior → Appearance → Theme, and pick a variant.
+
+See [INSTALL.md](INSTALL.md) for more detail, including the editor-scheme-only
+path that skips the plugin entirely.
+
+## Layout
+
+```
+src/main/
+├── kotlin/                # empty — no plugin logic, theme-only
+└── resources/
+    ├── META-INF/
+    │   └── plugin.xml      # themeProvider + bundledColorScheme wiring
+    └── themes/
+        ├── Foreglow.xml
+        ├── Foreglow.theme.json
+        ├── Afterglow.xml
+        ├── Afterglow.theme.json
+        ├── Alpenglow.xml
+        ├── Alpenglow.theme.json
+        ├── Airglow.xml
+        └── Airglow.theme.json
+```
 
 ## License
 
-MIT © [Foreglow](https://github.com/Foreglow)
+MIT, matching the original Foreglow VS Code theme.

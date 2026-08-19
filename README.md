@@ -55,4 +55,4 @@ src/main/
 
 ## License
 
-MIT, matching the original Foreglow VS Code theme.
+MIT © [Foreglow](https://github.com/Foreglow)

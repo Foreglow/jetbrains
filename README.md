@@ -1,12 +1,32 @@
-# Foreglow Theme Pack — JetBrains
+# Foreglow Theme for [JetBrains](https://www.jetbrains.com/)
 
-Unofficial JetBrains port of [Foreglow/visual-studio-code](https://github.com/Foreglow/visual-studio-code):
-four twilight-inspired variants — **Foreglow** (dark, dawn), **Afterglow**
-(light, dusk), **Alpenglow** (rubescent), **Airglow** (auroral).
+<p align="center"><img width="640" alt="foreglow-pack" src="https://github.com/user-attachments/assets/6075ceb9-b2ff-49e1-9e1c-c3673605892f" /></p>
 
-Each variant pairs a UI theme (`*.theme.json`) with a matching editor color
-scheme (`*.xml`) under `src/main/resources/themes/`, wired together by
-`src/main/resources/META-INF/plugin.xml`.
+## Previews
+
+<details>
+  <summary>🌃 Foreglow</summary>
+  <img width="1342" height="906" alt="foreglow" src="https://github.com/user-attachments/assets/f6153e54-6c34-47a4-aa43-6289dcac7892" />
+</details>
+
+<details>
+  <summary>🌇 Afterglow</summary>
+  <img width="1342" height="906" alt="afterglow" src="https://github.com/user-attachments/assets/7dac74e3-0063-48af-aa20-6dd3be3309e1" />
+</details>
+
+<details>
+  <summary>🌉 Alpenglow</summary>
+  <img width="1342" height="906" alt="alpenglow" src="https://github.com/user-attachments/assets/eec2f850-dbca-40c2-98be-0b6098706c4c" />
+</details>
+
+<details>
+  <summary>🌌 Airglow</summary>
+  <img width="1342" height="906" alt="airglow" src="https://github.com/user-attachments/assets/a40bf2cd-df68-4f80-bdad-df715ec4605a" />
+</details>
+
+A twilight-inspired theme for Visual Studio Code, with four variants:
+**Foreglow** (dark-dawn), **Afterglow** (light-dusk), **Alpenglow**
+(rubescent), and **Airglow** (auroral).
 
 ## Build
 

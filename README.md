@@ -1,8 +1,8 @@
 # Foreglow Theme Pack — JetBrains
 
 Unofficial JetBrains port of [Foreglow/visual-studio-code](https://github.com/Foreglow/visual-studio-code):
-four twilight-inspired variants — **Foreglow** (dark), **Afterglow** (light),
-**Alpenglow** (rubescent), **Airglow** (auroral).
+four twilight-inspired variants — **Foreglow** (dark, dawn), **Afterglow**
+(light, dusk), **Alpenglow** (rubescent), **Airglow** (auroral).
 
 Each variant pairs a UI theme (`*.theme.json`) with a matching editor color
 scheme (`*.xml`) under `src/main/resources/themes/`, wired together by

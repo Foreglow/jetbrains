@@ -1,4 +1,13 @@
-# Foreglow Theme for [JetBrains](https://www.jetbrains.com/)
+<p align="center"><img width="320" alt="foreglow-logo" src="https://github.com/user-attachments/assets/a54992d1-a0c2-4ac0-8bfc-f54da8f3e4a1" /></p>
+
+<h3 align="center">Foreglow Theme for <a href="https://www.jetbrains.com/">JetBrains</a></h3>
+
+<p align="center">
+  <a href="https://github.com/Foreglow/jetbrains/stargazers"><img src="https://img.shields.io/github/stars/Foreglow/jetbrains?style=for-the-badge&labelColor=313244&color=CB81E4" alt="Stars" /></a>
+  <a href="https://github.com/Foreglow/jetbrains/issues"><img src="https://img.shields.io/github/issues/Foreglow/jetbrains?style=for-the-badge&labelColor=313244&color=8930A6" alt="Issues" /></a>
+  <a href="https://github.com/Foreglow/jetbrains/graphs/contributors"><img src="https://img.shields.io/github/contributors/Foreglow/jetbrains?style=for-the-badge&labelColor=313244&color=FF6B8A" alt="Contributors" /></a>
+  <a href="https://github.com/Foreglow/jetbrains/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Foreglow/jetbrains?style=for-the-badge&labelColor=313244&color=2EE8C8" alt="License" /></a>
+</p>
 
 <p align="center"><img width="640" alt="foreglow-pack" src="https://github.com/user-attachments/assets/6075ceb9-b2ff-49e1-9e1c-c3673605892f" /></p>
 

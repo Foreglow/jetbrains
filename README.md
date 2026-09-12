@@ -24,7 +24,7 @@
   <img width="1342" height="906" alt="airglow" src="https://github.com/user-attachments/assets/a40bf2cd-df68-4f80-bdad-df715ec4605a" />
 </details>
 
-A twilight-inspired theme for Visual Studio Code, with four variants:
+A twilight-inspired theme for JetBrains, with four variants:
 **Foreglow** (dark-dawn), **Afterglow** (light-dusk), **Alpenglow**
 (rubescent), and **Airglow** (auroral).
 

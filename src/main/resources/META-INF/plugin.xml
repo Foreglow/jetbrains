@@ -1,7 +1,7 @@
 <idea-plugin>
-    <id>com.foreglow.theme.jetbrains.unofficial</id>
+    <id>com.foreglow.theme.jetbrains</id>
     <name>Foreglow Theme Pack</name>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <vendor url="https://github.com/Foreglow/visual-studio-code">Foreglow (unofficial JetBrains port)</vendor>
 
     <description><![CDATA[

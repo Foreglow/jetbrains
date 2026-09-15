@@ -37,6 +37,10 @@ A twilight-inspired theme for JetBrains, with four variants:
 **Foreglow** (dark-dawn), **Afterglow** (light-dusk), **Alpenglow**
 (rubescent), and **Airglow** (auroral).
 
+## Install from JetBrains Marketplace
+
+The Foreglow Theme Pack is available on the [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/34226-foreglow-theme-pack).
+
 ## Build
 
 ```
